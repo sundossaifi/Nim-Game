@@ -1,0 +1,42 @@
+
+.main-container
+{
+    -fx-min-width: 800px;
+    -fx-min-height: 600px;
+
+    -fx-max-width: 800px;
+    -fx-max-height: 600px;
+
+    -fx-pref-width: 800px;
+    -fx-pref-height: 600px;
+
+    -fx-background-image: url("../image/background.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.time-container
+{
+    -fx-arc-height: 50;
+    -fx-arc-width: 50;
+    -fx-stroke: none;
+
+    -fx-fill: DODGERBLUE;
+    -fx-opacity: 0.8;
+}
+
+.shiny-orange {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+
+    -fx-cursor: hand;
+}
